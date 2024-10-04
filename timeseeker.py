@@ -6,8 +6,8 @@ from spotipy import SpotifyOAuth
 import re
 engine = pyttsx3.init()
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id='a21ee1673b174c0ba59da83aa87bb7c1',
-    client_secret='ca04edd66acb41d19cc525be416ba718',
+    client_id='add your client id',
+    client_secret='add your client secret',
     redirect_uri='https://open.spotify.com/',
     scope="user-modify-playback-state,user-read-playback-state"))
 
